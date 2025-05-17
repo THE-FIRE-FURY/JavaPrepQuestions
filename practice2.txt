@@ -1,0 +1,132 @@
+1. Which of the following is the correct way to declare a variable in Java?
+a) int 1x = 10;
+	b) int x = 10;  
+c) int x = 10
+d) integer x = 10;
+
+2. Which of these is not a primitive data type in Java?
+a) int
+	b) float
+c) boolean
+		d) String
+
+3. What will 5 + 2 * 3 evaluate to in Java?
+a) 21
+	b) 11 
+c) 15
+d) 7
+
+4. Which of the following symbols is used for comments in Java?
+a) #
+	b) // 
+c) <!--
+d) **
+
+5. Which of these cannot be used for a variable name?
+a) _name
+	b) 1value 
+c) value1
+d) $temp
+
+6. Java is a...
+a) Procedural language
+b) Low-level language
+	c) Object-oriented language 
+d) Scripting language
+
+7. Which keyword is used to create an object in Java?
+a) class
+b) create
+	c) new 
+d) void
+
+8. Which method is the entry point for a Java application?
+a) start()
+	b) main() 
+c) run()
+d) execute()
+
+9. Which keyword is used to define a class?
+a) define
+b) Class
+	c) class 
+d) type
+
+10. Java source files have the extension:
+a) .class
+b) .jav
+	c) .java 
+d) .exe
+
+11. Which of these is a looping structure in Java?
+	a) for 
+b) loop
+c) goto
+d) switch
+
+12. Which keyword is used to skip a loop iteration?
+a) exit
+b) skip
+	c) continue 
+d) stop
+
+13. What is the output?
+
+int x = 0;  
+while (x < 3) {  
+    System.out.print(x);  
+    x++;  
+}
+	a) 123
+		 b) 012 
+c) 321
+d) 111
+
+14. The switch statement works with:
+	a) int, byte, short, char, String, enum 
+b) float, double
+c) boolean
+d) All types
+
+15. Which loop checks condition after execution?
+a) for
+b) while
+	c) do-while 	
+d) None
+
+16. Which of the following is a valid conditional statement?
+a) if (a = 5)
+	b) if (a == 5) 
+c) if a == 5
+d) when (a == 5)
+
+17. Which is not a relational operator in Java?
+a) ==
+b) !=
+c) <=
+	d) =<
+
+18. What will be the output?
+
+int i = 10;  
+if (i > 5)  
+    System.out.print("Hi ");  
+else  
+    System.out.print("Bye");
+a) Bye
+	b) Hi 
+c) Compile error
+d) Nothing
+
+19. How many times will the loop run?
+for (int i = 0; i < 5; i++) {}  
+a) 4
+	b) 5 
+c) 6
+d) Infinite
+
+20. Which keyword is used to terminate the loop entirely?
+a) stop
+b) terminate
+	c) break 
+d) end

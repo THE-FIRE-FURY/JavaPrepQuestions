@@ -1,0 +1,107 @@
+What is the output of the following code?
+
+int[] arr = new int[3];
+System.out.println(arr[0]);
+	a) 0
+b) null
+c) Garbage value
+d) Compilation error
+
+Which of the following correctly declares a one-dimensional array in Java?
+a) int arr[] = new int(5);
+	b) int arr[] = new int[5];
+c) int arr = new int[5];
+d) array int arr[5];
+
+What is the result of the following code?
+
+
+int[] nums = {10, 20, 30, 40};
+System.out.println(nums.length);
+a) 3
+	b) 4
+c) 5
+d) Compilation error
+
+Which exception is thrown when an array is accessed with an invalid index?
+a) IllegalArgumentException
+	b) IndexOutOfBoundsException
+c) ArrayIndexOutOfBoundsException
+d) NullPointerException
+
+Which of the following is valid syntax to initialize a 2D array?
+	a) int[][] arr = new int[3][4];
+b) int arr[][] = int[3][4]; 
+c) int arr[][] = new int[4]; 
+d) int arr = new int[3][4]; 
+
+What will the following code print?
+
+
+int[] arr = {1, 2, 3};
+arr[1] = 5;
+System.out.println(arr[1]);
+a) 1
+b) 2
+c) 3
+	d) 5
+
+How are arrays stored in Java?
+a) As primitive variables
+b) As static variables
+c) As objects
+d) As methods
+
+Which of the following creates an array of 5 strings?
+a) String str[5] = new String[];
+b) String[] str = new String[5];
+c) String[] str = new String();
+d) String str[] = new String(5);
+
+What will be the output?
+
+
+int[] arr = {10, 20, 30};
+for(int i : arr) {
+    System.out.print(i + " ");
+}
+a) 0 1 2
+b) 10 20 30
+c) Compilation error
+d) 30 20 10
+
+What is the default value of elements in a boolean array?
+a) true
+b) false
+c) 0
+d) null
+
+Which of the following correctly copies an array?
+a) int[] newArr = oldArr.copy();
+b) int[] newArr = Arrays.copyOf(oldArr, oldArr.length);
+c) int[] newArr = clone(oldArr);
+d) int[] newArr = copy(oldArr);
+
+Which of these methods belong to Arrays utility class?
+a) sort()
+b) binarySearch()
+c) equals()
+d) All of the above
+
+What is the base index of an array in Java?
+a) -1
+b) 0
+c) 1
+d) Depends on array type
+
+How do you find the last element in an array arr?
+a) arr[arr.length]
+b) arr[arr.length - 1]
+c) arr[length - 1]
+d) arr[-1]
+
+Which of the following is true about arrays in Java?
+a) They are dynamically resizable
+b) Their size is fixed once declared
+c) They can grow like ArrayList
+d) They store data in LIFO order

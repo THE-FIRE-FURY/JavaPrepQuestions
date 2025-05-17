@@ -1,0 +1,92 @@
+What is the correct way to inherit a class?
+a) class B inherit A {}
+	b) class B extends A {} 
+c) class B implements A {}
+d) inherit A into B
+
+Which class cannot be extended?
+a) Final class 
+	b) Abstract class
+c) Public class
+d) Super class
+
+Abstract methods are declared using:
+a) virtual
+	b) abstract 
+c) interface
+d) final
+
+Which keyword is used to prevent inheritance?
+	a) final 
+b) static
+c) sealed
+d) void
+
+Interfaces can contain:
+	a) Only abstract methods  (Java 7 and earlier)
+b) Only concrete methods
+c) Constructors
+d) Variables only
+
+What is the default value of an int array element?
+a) 1
+	b) 0 
+c) null
+d) -1
+
+Which class is used to handle strings in Java?
+	a) String 
+b) StringBuffer
+c) Buffer
+d) CharArray
+
+Strings in Java are:
+a) Mutable
+	b) Immutable 
+c) Static
+d) Final
+
+Which exception is thrown when accessing an invalid array index?
+a) IndexException
+b) ArrayException
+	c) ArrayIndexOutOfBoundsException 
+d) NullPointerException
+
+Which class is used to take input from the user?
+	a) Scanner 
+b) Input
+c) Reader
+d) System.in
+
+How do you write to a file in Java?
+	a) FileWriter 
+b) FileReader
+c) BufferedReader
+d) Scanner
+
+Which keyword is used to handle exceptions?
+a) error
+	b) try-catch 
+c) handle
+d) throwup
+
+What is the superclass of all classes in Java?
+a) Class
+	b) Main
+c) Object 
+d) Base
+
+What is printed by the code?
+
+String s = "Java";  
+System.out.println(s.length());
+a) 3
+	b) 4 
+c) 5
+d) Error
+
+What is the use of finally block?
+a) Runs if exception occurs
+b) Runs only when exception doesn’t occur
+	c) Always runs 
+d) Never runs

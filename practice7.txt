@@ -1,0 +1,181 @@
+1. What is the output?
+
+int x = 3;
+int y = ++x * 5 / x-- + --x;
+System.out.println("y = " + y);
+A) y = 7
+B) y = 6
+C) y = 8
+D) Compile-time error
+
+	A
+
+2. What is the output?
+
+static int i;
+public static void main(String[] args) {
+    System.out.println(i);
+}
+A) 0
+B) null
+C) Compile-time error
+D) Runtime error
+
+	D
+
+3. What is the output?
+
+System.out.println(Math.min(Double.MIN_VALUE, 0.0d));
+A) Double.MIN_VALUE
+B) 0.0
+C) -Double.MAX_VALUE
+D) NaN
+
+	B
+
+4. What is the output?
+
+Integer i1 = 1000;
+Integer i2 = 1000;
+System.out.println(i1 == i2);
+A) true
+B) false
+C) Compile-time error
+D) Runtime exception
+
+	A
+
+5. What is the output?
+
+List<String> list = new ArrayList<>();
+list.add("A");
+list.add("B");
+list.remove(0);
+System.out.println(list);
+A) [B]
+B) [A]
+C) [null]
+D) []
+
+	
+
+6. What is the output?
+
+int[] a = {1, 2, 3};
+System.out.println(a instanceof Object);
+A) true
+B) false
+C) Compile-time error
+D) Runtime error
+
+7. What happens when this code runs?
+
+class A {
+    private void show() {
+        System.out.println("A");
+    }
+}
+
+class B extends A {
+    public void show() {
+        System.out.println("B");
+    }
+
+    public static void main(String[] args) {
+        A obj = new B();
+        obj.show();
+    }
+}
+A) Prints B
+B) Compile-time error
+C) Runtime error
+D) Prints A
+
+8. What is the output?
+
+String str = " ";
+str.trim();
+System.out.println(str.equals("") + " " + str.isEmpty());
+A) false false
+B) true true
+C) false true
+D) true false
+
+9. What is the output?
+
+int result = 3;
+result += 1.5;
+System.out.println(result);
+A) 4.5
+B) Compile-time error
+C) 5
+D) Runtime error
+
+10. What is the output?
+
+System.out.println("Result: " + 10 / 0.0);
+A) Result: Infinity
+B) ArithmeticException
+C) Result: 0
+D) NaN
+
+11. What is the output?
+
+String s = "abcde";
+System.out.println(s.substring(2, 2));
+A) c
+B) ""
+C) Compile-time error
+D) Runtime exception
+
+12. What is the output?
+
+interface I {
+    default void show() {
+        System.out.println("Interface");
+    }
+}
+
+class C implements I {
+    public static void main(String[] args) {
+        new C().show();
+    }
+}
+A) Interface
+B) Compile-time error
+C) C
+D) Runtime error
+
+13. What is the output?
+
+String a = "abc";
+String b = "ab";
+b += "c";
+System.out.println(a == b);
+A) true
+B) false
+C) Compile-time error
+D) Runtime exception
+
+14. What is the output?
+
+String s = null;
+try {
+    if (s.length() == 0) {
+        System.out.println("Empty");
+    }
+} catch (Exception e) {
+    System.out.println("Exception");
+}
+A) Empty
+B) Compile-time error
+C) Exception
+D) No output
+
+15. What is the output?
+
+System.out.println("abc" instanceof String);
+A) true
+B) false
+C) Compile-time error
+D) Runtime error

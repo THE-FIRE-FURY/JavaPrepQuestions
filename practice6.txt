@@ -1,0 +1,218 @@
+1.
+
+int x = 10;
+x += x++ + ++x;
+System.out.println(x);
+
+	44
+
+2.
+
+String s = "abc";
+s.concat("def");
+System.out.println(s);
+
+	abcdef
+
+3.
+
+System.out.println(10 + 20 + "30" + 40 + 50);
+
+	30 30 90
+
+4.
+
+for (int i = 0; i < 5; i++) {
+    if (i == 3) break;
+    System.out.print(i + " ");
+}
+	
+	0 1 2 
+
+5.
+
+int[] arr = new int[3];
+System.out.println(arr[1]);
+
+	none
+
+6.
+
+public class Test {
+    public static void main(String[] args) {
+        String a = "hello";
+        String b = "he" + "llo";
+        System.out.println(a == b);
+    }
+}
+
+	true
+
+7.
+
+int x = 5;
+System.out.println(x++ + ++x);
+
+	12
+
+8.
+
+public class Test {
+    public static void main(String[] args) {
+        try {
+            int x = 5 / 0;
+        } catch (ArithmeticException e) {
+            System.out.println("ArithmeticException");
+        } finally {
+            System.out.println("Finally");
+        }
+    }
+}
+
+	ArithmeticException
+	Finally
+
+9.
+
+String s1 = "Java";
+String s2 = new String("Java");
+System.out.println(s1 == s2);
+
+	True
+
+10.
+
+public class Test {
+    public static void main(String[] args) {
+        System.out.println("A" + 'B' + 'C');
+    }
+}
+
+	ABC
+
+11.
+
+int a = 5;
+int b = 2;
+System.out.println(a / b);
+
+	2.5
+
+12.
+
+int x = 5;
+System.out.println((x > 2) ? x++ : --x);
+System.out.println(x);
+
+	6
+
+13.
+
+String str = "abc";
+str.toUpperCase();
+System.out.println(str);
+
+	ABC
+
+14.
+
+public class Test {
+    public static void main(String[] args) {
+        int x = 10;
+        {
+            int y = 20;
+            System.out.print(x + y);
+        }
+        // System.out.print(y); // Uncomment this line
+    }
+}
+
+	error
+
+15.
+
+int[] a = {1, 2, 3};
+for (int i : a) {
+    i++;
+    System.out.print(i + " ");
+}
+
+	2 3 4
+
+16.
+
+System.out.println(3 + 4 * 2);
+
+	11
+
+17.
+
+String s = null;
+System.out.println(s + "test");
+
+	nulltest
+
+18.
+
+public class A {
+    public A() {
+        System.out.println("Constructor A");
+    }
+}
+
+public class B extends A {
+    public B() {
+        System.out.println("Constructor B");
+    }
+
+    public static void main(String[] args) {
+        new B();
+    }
+}
+
+	Constructor B
+
+19.
+
+public class Test {
+    public static void main(String[] args) {
+        int x = 5;
+        x = x++ * 2 + ++x;
+        System.out.println(x);
+    }
+}
+
+	16
+
+20.
+
+char c = 65;
+System.out.println(c);
+
+
+
+21.
+
+String s = "Hello";
+System.out.println(s.charAt(5));
+22.
+
+StringBuilder sb = new StringBuilder("abc");
+sb.reverse();
+System.out.println(sb);
+23.
+
+int x = 10;
+System.out.println(x >> 1);
+24.
+
+int x = 1;
+while (x < 10) {
+    x = x + x;
+    System.out.print(x + " ");
+}
+25.
+
+Integer a = 127;
+Integer b = 127;
+System.out.println(a == b);

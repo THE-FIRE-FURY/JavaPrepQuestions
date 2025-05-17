@@ -1,0 +1,194 @@
+Class and Object (Q1–Q5)
+Which of the following is true about a Java class?
+a) It is an instance of an object x
+	b) It is a template for objects
+c) It is used only for inheritance
+d) It contains only static members
+
+What is the correct way to create an object in Java?
+a) new Class;
+b) Class obj = new();
+	c) Class obj = new Class();
+d) create Class obj();
+
+Which keyword is used to refer to the current object?
+	a) this
+b) self
+c) current
+d) object
+
+How is memory allocated to objects in Java?
+a) Stack
+	b) Heap
+c) Register
+d) Static memory
+
+Which of these can a Java class not contain?
+a) Variables
+b) Methods
+c) Constructors
+	d) Interfaces
+
+🔹 Constructors (Q6–Q10)
+What is a constructor in Java?
+a) A method called manually
+	b) A special method invoked automatically when an object is created
+c) A method used only in inheritance
+d) A static method
+
+If no constructor is defined, Java provides:
+a) Parameterized constructor
+b) Final constructor
+	c) Default constructor
+d) No constructor
+
+Can a constructor be overloaded in Java?
+a) No
+b) Yes, with different names
+	c) Yes, with different parameters
+d) Only in abstract classes
+
+Which statement is true about constructors?
+a) Must have a return type
+b) Can be static
+c) Cannot be overloaded
+	d) Do not have return types
+
+What will the following constructor do?
+
+java
+Copy
+Edit
+class Test {
+    Test() {
+        System.out.println("Test");
+    }
+}
+	a) Print “Test” when an object is created
+b) Cause a syntax error
+c) Be ignored at runtime
+d) Return an integer
+
+🔹 this and super keywords (Q11–Q15)
+What does the this keyword refer to?
+a) Parent class
+	b) Current class object
+c) Static object
+d) Final variable
+
+Which keyword is used to access the parent class constructor?
+a) base
+b) parent
+	c) super
+d) this
+
+Which of the following is true about super()?
+a) It must be the last statement in a constructor
+b) It is called automatically by the JVM
+c) It must be the first statement in a constructor
+d) It can be used inside any method
+
+Can this() and super() be used in the same constructor?
+a) Yes
+b) No
+c) Only in abstract classes
+d) Only in static blocks
+
+Which is not a valid use of this?
+a) To call another constructor
+b) To return current class instance
+c) To access static members
+d) To access current class variables
+
+🔹 Method Overloading and Overriding (Q16–Q20)
+Method overloading is:
+a) Same method name with different return types
+b) Same method name, same parameters
+c) Same method name, different parameters
+d) Multiple classes having same method name
+
+Method overriding requires:
+a) Methods in same class
+b) Methods with different names
+c) Inheritance
+d) Static methods
+
+What is true about method overriding?
+a) It happens at compile-time
+b) It supports multiple return types
+c) It must have same method signature
+d) It works with static methods
+
+Can a private method be overridden?
+a) Yes
+b) No
+c) Only with protected access
+d) Only in final classes
+
+Which of these is NOT allowed in method overloading?
+a) Changing the number of parameters
+b) Changing the return type only
+c) Changing parameter types
+d) All are allowed
+
+🔹 Inheritance (Q21–Q25)
+Which keyword is used for inheritance in Java?
+a) inherit
+b) extends
+c) implements
+d) interface
+
+Which class is the parent of all Java classes?
+a) Object
+b) Parent
+c) Base
+d) Class
+
+Java does not support multiple inheritance using:
+a) Interfaces
+b) Classes
+c) Abstract classes
+d) None
+
+What will happen if a subclass does not override an inherited method?
+a) It will cause an error
+b) The superclass method is used
+c) The method becomes abstract
+d) The method is deleted
+
+Which is not inherited in Java?
+a) Public methods
+b) Protected variables
+c) Private methods
+d) Static methods
+
+🔹 Polymorphism, Abstraction, Encapsulation (Q26–Q30)
+What is polymorphism?
+a) Hiding data
+b) Many forms of a method
+c) Abstraction
+d) Object creation
+
+Dynamic polymorphism is achieved through:
+a) Method overloading
+b) Interfaces
+c) Method overriding
+d) Constructors
+
+Which keyword is used to define an abstract class?
+a) interface
+b) final
+c) static
+d) abstract
+
+An interface can contain:
+a) Only abstract methods (Java <8)
+b) Constructors
+c) Static blocks
+d) Private methods only
+
+Encapsulation is:
+a) Wrapping data and methods
+b) Hiding implementation logic
+c) Inheriting multiple classes
+d) Writing abstract methods

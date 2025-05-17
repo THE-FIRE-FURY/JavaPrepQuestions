@@ -1,0 +1,134 @@
+1. What is the output of the following code?
+
+int x = 5;  
+System.out.println(x++ + ++x);
+
+	KANS = 11
+
+2. Which of the following is not a Java keyword?
+a) volatile
+	b) null 
+c) instanceof
+d) synchronized
+
+3. What is the default value of a boolean variable in Java?
+a) true
+	b) false 
+c) 0
+d) null
+
+4.Which data type can store a Unicode character?
+	a) char 
+b) int
+c) String
+d) float
+
+5. What is method overloading in Java?
+a) Having multiple classes with the same name
+	b) Using the same method name but different parameters 
+c) Inheriting methods from another class
+d) Using methods with the same name and same parameters
+
+6. Which OOP principle is demonstrated by using interfaces?
+a) Inheritance
+	b) Abstraction 
+c) Polymorphism
+d) Encapsulation
+
+7. What is the output of this code?
+
+class Parent { void show() { System.out.println("Parent"); } }  
+class Child extends Parent { void show() { System.out.println("Child"); } }  
+public class Test {  
+    public static void main(String[] args) {  
+        Parent obj = new Child();  
+        obj.show();  
+    }  
+}
+a) Parent
+	b) Child 
+c) Compile error
+d) Runtime error
+
+8. Which access modifier allows visibility within the same package and subclasses?
+a) private
+	b) protected 
+c) public
+d) default
+
+9. What is the difference between throw and throws?
+a) throw is used to declare an exception, throws to handle
+	b) throw is used to actually throw an exception 
+c) They are interchangeable
+d) None of the above
+
+10. Which of the following is a checked exception?
+a) NullPointerException
+	b) IOException 
+c) ArithmeticException
+d) ArrayIndexOutOfBoundsException
+
+11. What happens if an exception is not caught?
+	a) Program terminates abruptly 
+b) Nothing happens
+c) Java automatically handles it
+d) The compiler fixes it
+
+12. Difference between ArrayList and LinkedList?
+a) Both use arrays internally
+b) LinkedList is slower than ArrayList
+	c) ArrayList uses dynamic arrays, LinkedList uses nodes 
+d) No difference at all
+
+13. Which interface does HashMap implement?
+	a) Map 
+b) Set
+c) List
+d) Collection
+
+14. What is the output?
+
+Set<String> set = new HashSet<>();  
+set.add("Java");  
+set.add("Java");  
+System.out.println(set.size());
+a) 0
+	b) 1 
+c) 2
+d) Runtime error
+
+15. Why is HashMap not synchronized?
+	a) To make it lightweight and fast 
+b) It's never used in threads
+c) It extends ArrayList
+d) None of the above
+
+16. How can a thread be created in Java?
+a) Implementing Runnable
+b) Extending Thread
+	c) Both a and b
+d) None of the above
+
+17. Difference between start() and run() in threads?
+	a) start() starts new thread; run() runs in main thread 
+b) start() is faster
+c) No difference
+d) run() is not a valid method
+
+18. What does the synchronized keyword do?
+a) Speeds up code
+	b) Ensures one thread accesses a resource at a time 
+c) Deletes unused objects
+d) None of the above
+
+19. Which class reads data from a file?
+a) File
+	b) FileReader 
+c) FileWriter
+d) InputStreamReader
+
+20. What is the difference between == and .equals() for strings?
+a) No difference
+	b) == compares reference, .equals() compares content 
+c) Both compare content
+d) .equals() is faster than ==

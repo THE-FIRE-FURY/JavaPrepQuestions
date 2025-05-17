@@ -1,0 +1,29 @@
+1. Which of these defines inheritance in Java?
+a) inherit
+	b) extends 
+c) inherits
+d) parentof
+
+2. Which feature allows using the same method name with different parameters?
+a) Inheritance
+b) Encapsulation
+	c) Method overloading 
+d) Method overriding
+
+3. Which of the following is not an access modifier?
+a) private
+b) protected
+c) public
+	d) internal
+
+4. Encapsulation is achieved in Java by:
+a) Inheritance
+	b) Using private variables and public methods 
+c) Using interfaces
+d) Method overriding
+
+5. Polymorphism allows:
+	a) Overriding methods 
+b) Only one method per class
+c) Only static methods
+d) One-time use only

@@ -1,0 +1,105 @@
+What is the output?
+
+public class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        System.out.println(x++);
+    }
+}
+a) 5 
+b) 6
+c) Compile error
+What is the output?
+
+public class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 5;
+        System.out.println(x > y ? x : y);
+    }
+}
+a) 10 
+b) 5
+c) true
+d) Compile error
+What is the output?
+
+public class Main {
+    public static void main(String[] args) {
+        String s = "Java";
+        s.concat(" Programming");
+        System.out.println(s);
+    }
+}
+a) Java Programming
+b) Java 
+c) Compile error
+EZHIL
+9:08 PM
+What is the output?
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3};
+        System.out.println(arr[1]);
+    }
+}
+a) 1
+b) 2 
+c) 3
+d) Compile error
+What is the output?
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello" + 1 + 2);
+    }
+}
+	a) Hello3
+b) Hello12 
+c) 3Hello
+d) Compile error
+
+What is the output?
+
+public class Main {
+    public static void main(String[] args) {
+        int x = 3;
+        int y = ++x * 5 / x-- + --x;
+        System.out.println(y);
+    }
+}
+a) 7 
+b) 8
+	c) 9
+d) Compile error
+
+What is the output?
+
+public class Main {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+        System.out.println(a && b);
+    }
+}
+a) true
+b) false 
+c) Compile error
+d) 0
+What is the output?
+
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 4;
+        while(a > 0) {
+            System.out.print(a + " ");
+            a--;
+        }
+    }
+}
+a) 4 3 2 1 
+b) 0 1 2 3
+c) Infinite loop
+d) Compile error

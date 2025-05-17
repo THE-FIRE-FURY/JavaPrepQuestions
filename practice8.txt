@@ -1,0 +1,136 @@
+What is the output of the following code?
+
+String str = "Java";
+str.concat("Programming");
+System.out.println(str);
+	8a) Java
+b) JavaProgramming
+c) Programming
+d) Compilation error
+
+Which of the following methods is used to compare two strings ignoring case?
+a) equals()
+b) ==
+c) compareTo()
+d) equalsIgnoreCase()
+
+Which method can be used to extract a substring from a given string?
+a) getSubstring()
+b) substring()
+c) split()
+d) charAt()
+
+What will be the output of the following code?
+
+
+String s = "Java";
+System.out.println(s.charAt(2));
+a) J
+b) v
+c) a
+d) Compilation error
+
+Which method is used to get the length of a string in Java?
+a) length()
+b) size()
+c) getLength()
+d) count()
+
+What is the result of "java" == "java" in Java?
+a) true
+b) false
+c) Compilation error
+d) Runtime exception
+
+How can you convert a String to uppercase in Java?
+a) str.toCapital()
+b) str.upper()
+c) str.toUpperCase()
+d) str.capitalize()
+
+What does the trim() method do?
+a) Removes all characters
+b) Trims string to half
+c) Removes leading and trailing whitespace
+d) Converts string to lowercase
+
+Which of the following is immutable in Java?
+a) StringBuilder
+b) StringBuffer
+c) String
+d) All of the above
+
+Which method is used to replace characters in a string?
+a) change()
+b) replace()
+c) modify()
+d) switch()
+
+What is the output of the following?
+
+
+String str1 = "Java";
+String str2 = new String("Java");
+System.out.println(str1 == str2);
+a) true
+b) false
+c) Compilation error
+d) Exception
+
+What does StringBuilder provide that String does not?
+a) Mutability
+b) Immutability
+c) Null safety
+d) Thread safety
+
+Which of the following is used to convert other types to string?
+a) Integer.toString()
+b) String.valueOf()
+c) "" + value
+d) All of the above
+
+How can you join two strings in Java?
+a) concat()
+b) + operator
+c) StringBuilder.append()
+d) All of the above
+
+What does the split() method return?
+a) List
+b) String
+c) String array
+d) Iterator
+
+Which of these is thread-safe?
+a) StringBuilder
+b) StringBuffer
+c) String
+d) Both b and c
+
+What will be the output?
+
+
+String s = " Hello ";
+System.out.println(s.trim().length());
+a) 6
+b) 7
+c) 5
+d) 8
+
+Which method checks whether a string contains a particular sequence of characters?
+a) has()
+b) contains()
+c) include()
+d) match()
+
+Which is the correct way to convert a String to a char[] array?
+a) str.toCharArray()
+b) str.toChars()
+c) str.getCharacters()
+d) str.asArray()
+
+Which of these classes is NOT a part of the java.lang package?
+a) String
+b) StringBuilder
+c) StringBuffer
+d) StringUtils
